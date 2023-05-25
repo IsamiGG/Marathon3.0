@@ -1,0 +1,39 @@
+﻿<Page x:Class="MarathonNEW.Information"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MarathonNEW"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Information">
+
+    <Grid>
+
+        <Button Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="32" x:Name="BtnReg" Click="BtnReg_Click"/>
+        <StackPanel HorizontalAlignment="Center" Margin="76,-2,51,0" Width="673" VerticalAlignment="Center" Height="452">
+            <Label Content="Подробная информация" HorizontalAlignment="Left" Margin="125,25,0,0" VerticalAlignment="Top" Width="417" Height="57" FontSize="35"/>
+            <StackPanel HorizontalAlignment="Center" Height="318" Width="652" Margin="2,50,19,50">
+                <StackPanel HorizontalAlignment="Center" Height="83" Width="653" Margin="1,50,-2,50">
+                    <Button Content="Marathon Skills 2016" HorizontalAlignment="Left" Margin="80,15,0,0" VerticalAlignment="Top" Width="156" Height="55"/>
+                    <Button Content="Насколько долгий марафон" HorizontalAlignment="Left" Margin="400,-55,0,0" VerticalAlignment="Top" Width="168" Height="55" Click="Button_Click_1"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Height="83" Width="653" Margin="0,-50,-2,50">
+                    <Button Content="Предыдущие результаты" HorizontalAlignment="Left" Margin="80,15,0,0" VerticalAlignment="Top" Width="156" Height="55" Click="Button_Click" />
+                    <Button Content="Список&#xA;благотворительных&#xA;организаций" HorizontalAlignment="Left" Margin="400,-55,0,0" VerticalAlignment="Top" Width="167" Height="55"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Height="83" Width="653" Margin="0,-50,-2,50">
+                    <Button Content="BMR калькулятор" HorizontalAlignment="Left" Margin="80,15,0,0" VerticalAlignment="Top" Width="156" Height="55"/>
+                    <Button Content="BMI калькулятор" HorizontalAlignment="Left" Margin="400,-56,0,0" VerticalAlignment="Top" Width="164" Height="55"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+
+
+
+
+
+
+    </Grid>
+</Page>

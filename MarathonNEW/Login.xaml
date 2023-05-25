@@ -1,0 +1,49 @@
+﻿<Page x:Class="MarathonNEW.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MarathonNEW"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center" Height="163" Margin="177,131,118,156" Width="505">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="8,0,-1,0" Width="498" RenderTransformOrigin="0.574,0.5" Height="37">
+                <TextBlock Text="Email:"
+                           FontSize="25"
+                           Width="107" Margin="0,0,0,2" />
+                <TextBox Width="384" Margin="0,0,0,4" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="499" Margin="5">
+                <TextBlock Text="Password:"
+                           FontSize="25"
+                           Width="116" />
+                <TextBox Width="383" Height="28" />
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="68" Margin="5">
+                <Button Content="Войти" Width="189" Margin="5,15,5,25" HorizontalAlignment="Center" Click="Button_Click"/>
+                <Button x:Name="BtnReg1"
+                        Click="BtnReg_Click1"
+                     
+                        Content="Регистрация" Width="189" Margin="100,15,5,25" HorizontalAlignment="Center" />
+            </StackPanel>
+
+        </StackPanel>
+        <Button Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="32" Name="BtnReg" Click="BtnReg_Click">
+        </Button>
+        <TextBlock Text="Форма авторизации"
+                    FontSize="25"
+                    Margin="288,7,268,0" 
+                    HorizontalAlignment="Center"
+                   VerticalAlignment="Top" Width="244"/>
+        <TextBlock
+            FontSize="15"
+            Margin="174,41,73,0" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top"><Run Text="Пожалуйста, авторизуйтесь в системе, используя ваш адрес э"/><Run Text="лектронной почты"/><LineBreak/><Run Text=" и пароль."/></TextBlock>
+    </Grid>
+</Page>

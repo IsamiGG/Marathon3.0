@@ -1,0 +1,16 @@
+﻿<Page x:Class="MarathonNEW.RegistrationConfirmation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MarathonNEW"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegistrationConfirmation">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Width="692" VerticalAlignment="Center" Orientation="Vertical" Height="215" Margin="57,8,51,227">
+        
+        </StackPanel>
+    </Grid>
+</Page>
